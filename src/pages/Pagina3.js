@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Pagina3.css";
 
-// Importa las imágenes
+
 import portafolioImagen from "./portafolio imagen.jpg";
 import proximamenteImagen from "./proximamente.jpg";
 
