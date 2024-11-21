@@ -1,0 +1,118 @@
+.pagina3 {
+  height: 100vh;
+  background-color: #f8f8f8; /* Color de fondo claro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.titulo-proyectos {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mis {
+  font-family: "Garamond", serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.contenido-proyectos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.descripcion {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.imagenes {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.proyecto img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.proyecto p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.botones-navegacion {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.boton {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.boton:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .contenido-proyectos {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .imagenes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .proyecto {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .botones-navegacion {
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+  }
+}
