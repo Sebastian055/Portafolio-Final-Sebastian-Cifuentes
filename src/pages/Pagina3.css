@@ -1,6 +1,6 @@
 .pagina3 {
   height: 100vh;
-  background-color: #f8f8f8; /* Color de fondo claro */
+  background-color: #f8f8f8; 
   display: flex;
   flex-direction: column;
   align-items: center;
